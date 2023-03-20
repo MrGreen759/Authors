@@ -96,15 +96,14 @@ fun main() {
 
     // заполняем финальный список постов
     println("---- Посты с авторами и комментариями ----")
-    val postsWithAuthors: List<PostFull> = List(posts.size) {PostFull(null, null, null)}
+    val postsWithAuthors: List<PostFull> = List(posts.size) {PostFull(null, null, ArrayList<CommentFull>())}
     n = 0
     for (i in 0..posts.size-1) {
         postsWithAuthors[i].post = posts[i]
         postsWithAuthors[i].postAuthor = authorsOfPosts[i]
-
         for (j in 0..commentsWithAuthors.size-1) {
             if (commentsWithAuthors[j].comment?.postId == posts[i].id) {
-                postsWithAuthors[i].comments?.add(n, commentsWithAuthors[j])
+                postsWithAuthors[i].comments?.add(commentsWithAuthors[j])
                 n++
             }
         }
