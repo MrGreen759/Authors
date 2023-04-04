@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="158102ad-995b-487d-81d7-72b5df783ea0" name="Changes" comment="19.03.2023 - Homework 3.1 (add Readme)">
+    <list default="true" id="158102ad-995b-487d-81d7-72b5df783ea0" name="Changes" comment="19.03.2023 - Complete homework 3.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -83,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679256635393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="19.03.2023 - Complete homework 3.1">
+      <created>1679340411603</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679340411603</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="19.03.2023 - Homework 3.1" />
     <MESSAGE value="19.03.2023 - Homework 3.1 (add Readme)" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.03.2023 - Homework 3.1 (add Readme)" />
+    <MESSAGE value="19.03.2023 - Complete homework 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.03.2023 - Complete homework 3.1" />
   </component>
 </project>
